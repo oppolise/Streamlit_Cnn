@@ -15,7 +15,7 @@ st.header('Please up load picture')
 device = torch.device('cpu')
 
 try:
-    model = torch.load('efficientnet_b7_checkpoint_fold2.pt', map_location=device)
+    model = torch.load('mobilenetv3_large_100_checkpoint_fold2.pt', map_location=device)
 except Exception as e:
     st.error(f"Error loading model: {e}")
 
