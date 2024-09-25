@@ -5,7 +5,7 @@ from prediction import pred_class
 import numpy as np
 
 # Set title 
-st.title('Knee Arthritis Classification')
+st.title('Acoustic 10 event Classification')
 
 # Set Header 
 st.header('Please upload a picture')
